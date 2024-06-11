@@ -21,3 +21,7 @@ p_exists()                              # Verificação lógica se o pacote exis
 p_functions()
 p_version()
 p_data()                                #lista com os data.frame fornecidos pelo pacote
+
+install.packages("packrat")             # Esta biblioteca é útil para garantir a reprodutibilidade do código. O packrat
+                                        # armazena os pacotes no diretório do projeto. Outra opção é o sessionInfo() que 
+                                        # mesmo não recrie os pacotes pelo menos identificará quais são. 
